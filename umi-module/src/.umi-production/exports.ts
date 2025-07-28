@@ -5,7 +5,6 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { rawMfImport, registerMfRemote, safeMfImport, safeRemoteComponent, safeRemoteComponentWithMfConfig } from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-mf';
 export { Provider, useModel } from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-model';
 // plugins types.d.ts
 export * from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-layout/types.d';
