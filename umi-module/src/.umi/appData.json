@@ -22,8 +22,8 @@
     },
     "devDependencies": {
       "@originjs/vite-plugin-federation": "^1.4.1",
-      "@types/react": "^18.0.0",
-      "@types/react-dom": "^18.0.0",
+      "@types/react": "^18.2.0",
+      "@types/react-dom": "^18.2.0",
       "husky": "^9",
       "lint-staged": "^13.2.0",
       "prettier": "^2.8.7",
@@ -51,7 +51,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 8
       },
       "enableBy": "register",
       "type": "preset",
@@ -129,7 +129,7 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            5
+            16
           ]
         },
         "register": 14
@@ -145,7 +145,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -165,7 +165,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -212,7 +212,7 @@
             0
           ]
         },
-        "register": 5
+        "register": 8
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1078,10 +1078,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1094,7 +1094,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1107,7 +1107,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 57
+        "register": 54
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1120,7 +1120,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 56
+        "register": 55
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1190,10 +1190,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            1
+            0
           ]
         },
-        "register": 23
+        "register": 24
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1218,7 +1218,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1243,7 +1243,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1257,7 +1257,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            0
           ]
         },
         "register": 1
@@ -1298,7 +1298,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1311,7 +1311,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1350,7 +1350,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
@@ -1388,7 +1388,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1490,7 +1490,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1503,7 +1503,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1532,7 +1532,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1557,7 +1557,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1569,7 +1569,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
@@ -1581,7 +1581,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1607,7 +1607,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1620,7 +1620,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 23
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1640,7 +1640,7 @@
             0
           ]
         },
-        "register": 17
+        "register": 20
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1652,7 +1652,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1717,7 +1717,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1743,7 +1743,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1756,7 +1756,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1808,7 +1808,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1821,7 +1821,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1834,7 +1834,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1847,7 +1847,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1886,7 +1886,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 15
+        "register": 17
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1912,7 +1912,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1925,7 +1925,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1940,7 +1940,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/plugins/dist/analytics.js",
@@ -1999,7 +1999,7 @@
             0
           ],
           "modifyAppData": [
-            0
+            1
           ]
         },
         "register": 2
@@ -2029,7 +2029,7 @@
       "time": {
         "hooks": {
           "modifyDefaultConfig": [
-            2
+            3
           ]
         },
         "register": 1
@@ -2058,7 +2058,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2071,7 +2071,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2160,7 +2160,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2177,7 +2177,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2224,7 +2224,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2253,11 +2253,11 @@
       "shared": {
         "react": {
           "singleton": true,
-          "requiredVersion": "^18.0.0"
+          "requiredVersion": "^18.2.0"
         },
         "react-dom": {
           "singleton": true,
-          "requiredVersion": "^18.0.0"
+          "requiredVersion": "^18.2.0"
         }
       },
       "library": {
@@ -2316,11 +2316,11 @@
       "shared": {
         "react": {
           "singleton": true,
-          "requiredVersion": "^18.0.0"
+          "requiredVersion": "^18.2.0"
         },
         "react-dom": {
           "singleton": true,
-          "requiredVersion": "^18.0.0"
+          "requiredVersion": "^18.2.0"
         }
       },
       "library": {
@@ -2404,6 +2404,9 @@
   "globalJS": [],
   "overridesCSS": [],
   "bundler": "webpack",
+  "git": {
+    "originUrl": "https://github.com/woshiachenga/mf-demo.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.8.3",
