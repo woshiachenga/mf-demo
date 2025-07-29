@@ -11,7 +11,7 @@ import {
 import React, { useMemo } from 'react';
 import {
   ProLayout,
-} from "/Users/zhao/Desktop/demo/umi-module/node_modules/@ant-design/pro-components";
+} from "@fs/node_modules/@ant-design/pro-components";
 import './Layout.less';
 import Logo from './Logo';
 import Exception from './Exception';

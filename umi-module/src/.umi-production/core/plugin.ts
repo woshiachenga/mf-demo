@@ -3,9 +3,9 @@
 // DO NOT CHANGE IT MANUALLY!
 import * as Plugin_0 from '/Users/zhao/Desktop/demo/umi-module/src/app.tsx';
 import * as Plugin_1 from '@@/core/helmet.ts';
-import * as Plugin_2 from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-initialState/runtime.tsx';
-import * as Plugin_3 from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-layout/runtime.tsx';
-import * as Plugin_4 from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-model/runtime.tsx';
+import * as Plugin_2 from '../plugin-initialState/runtime.tsx';
+import * as Plugin_3 from '../plugin-layout/runtime.tsx';
+import * as Plugin_4 from '../plugin-model/runtime.tsx';
 import { PluginManager } from 'umi';
 
 function __defaultExport (obj) {
@@ -51,10 +51,19 @@ export function createPluginManager() {
     validKeys: getValidKeys(),
   });
 
+  // fix https://github.com/umijs/umi/issues/10047
+  // https://vitejs.dev/guide/api-hmr.html#hot-data 通过 hot data 持久化 pluginManager 解决 vite 热更时 getPluginManager 获取到 null 的情况
+  if (process.env.NODE_ENV === 'development' && import.meta.hot) {
+    import.meta.hot.data.pluginManager = pluginManager
+  }
 
   return pluginManager;
 }
 
 export function getPluginManager() {
+  // vite 热更模式优先从 hot data 中获取 pluginManager
+  if (process.env.NODE_ENV === 'development' && import.meta.hot) {
+    return import.meta.hot.data.pluginManager || pluginManager
+  }
   return pluginManager;
 }

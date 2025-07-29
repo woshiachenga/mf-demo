@@ -4,12 +4,11 @@
 import React from 'react';
 
 export async function getRoutes() {
-  const routes = {"1":{"path":"/","redirect":"/main","parentId":"ant-design-pro-layout","id":"1"},"2":{"name":"首页","path":"/main","parentId":"ant-design-pro-layout","id":"2"},"ant-design-pro-layout":{"id":"ant-design-pro-layout","path":"/","isLayout":true}} as const;
+  const routes = {"1":{"path":"/","parentId":"ant-design-pro-layout","id":"1"},"ant-design-pro-layout":{"id":"ant-design-pro-layout","path":"/","isLayout":true}} as const;
   return {
     routes,
     routeComponents: {
-'1': React.lazy(() => import('./EmptyRoute')),
-'2': React.lazy(() => import(/* webpackChunkName: "p__Home__index" */'@/pages/Home/index.tsx')),
+'1': React.lazy(() => import(/* webpackChunkName: "p__Home__index" */'@/pages/Home/index.tsx')),
 'ant-design-pro-layout': React.lazy(() => import(/* webpackChunkName: "umi__plugin-layout__Layout" */'/Users/zhao/Desktop/demo/umi-module/src/.umi/plugin-layout/Layout.tsx')),
 },
   };

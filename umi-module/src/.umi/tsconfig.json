@@ -31,6 +31,9 @@
       ],
       "@umijs/max/typings": [
         "src/.umi/typings"
+      ],
+      "@fs/*": [
+        "*"
       ]
     }
   },

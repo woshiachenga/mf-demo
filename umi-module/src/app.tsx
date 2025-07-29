@@ -11,11 +11,10 @@ export function rootContainer(root: JSX.Element): JSX.Element {
       }}
       locale={zhCN}
     >
-      <div className="growth-system-custom">{root}</div>
+      <div className='growth-system-custom'>{root}</div>
     </ConfigProvider>
   );
 }
-
 export async function getInitialState() {
   return {};
 }

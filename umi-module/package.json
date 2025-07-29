@@ -16,6 +16,7 @@
     "@ant-design/icons": "^4.7.0",
     "@ant-design/pro-components": "^2.0.1",
     "@umijs/max": "^4.0.28",
+    "@vitejs/plugin-react": "^4.7.0",
     "antd": "^4.24.1"
   },
   "devDependencies": {
@@ -27,6 +28,13 @@
     "prettier": "^2.8.7",
     "prettier-plugin-organize-imports": "^3.2.2",
     "prettier-plugin-packagejson": "^2.4.3",
-    "typescript": "^5.0.3"
-  }
+    "typescript": "^5.0.3",
+    "vite-plugin-top-level-await": "^1.6.0"
+  },
+  "browserslist": [
+    "chrome >= 89",
+    "firefox >= 89",
+    "safari >= 15",
+    "edge >= 89"
+  ]
 }

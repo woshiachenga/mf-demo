@@ -5,14 +5,14 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { Provider, useModel } from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-model';
+export { Provider, useModel } from './plugin-model';
 // plugins types.d.ts
-export * from '/Users/zhao/Desktop/demo/umi-module/src/.umi-production/plugin-layout/types.d';
+export * from './plugin-layout/types.d';
 // @umijs/renderer-*
-export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/renderer-react';
-export type { History, ClientLoader } from '/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/renderer-react'
+export { createBrowserHistory, createHashHistory, createMemoryHistory, Helmet, HelmetProvider, createSearchParams, generatePath, matchPath, matchRoutes, Navigate, NavLink, Outlet, resolvePath, useLocation, useMatch, useNavigate, useOutlet, useOutletContext, useParams, useResolvedPath, useRoutes, useSearchParams, useAppData, useClientLoaderData, useLoaderData, useRouteProps, useSelectedRoutes, useServerLoaderData, renderClient, __getRoot, Link, useRouteData, __useFetcher, withRouter } from '@fs/node_modules/@umijs/renderer-react';
+export type { History, ClientLoader } from '@fs/node_modules/@umijs/renderer-react'
 // umi/client/client/plugin
-export { ApplyPluginsType, PluginManager } from '/Users/zhao/Desktop/demo/umi-module/node_modules/umi/client/client/plugin.js';
+export { ApplyPluginsType, PluginManager } from '@fs/node_modules/umi/client/client/plugin.js';
 export { history, createHistory } from './core/history';
 export { terminal } from './core/terminal';
 // react ssr

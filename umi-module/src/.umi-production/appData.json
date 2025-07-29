@@ -18,6 +18,7 @@
       "@ant-design/icons": "^4.7.0",
       "@ant-design/pro-components": "^2.0.1",
       "@umijs/max": "^4.0.28",
+      "@vitejs/plugin-react": "^4.7.0",
       "antd": "^4.24.1"
     },
     "devDependencies": {
@@ -29,8 +30,15 @@
       "prettier": "^2.8.7",
       "prettier-plugin-organize-imports": "^3.2.2",
       "prettier-plugin-packagejson": "^2.4.3",
-      "typescript": "^5.0.3"
-    }
+      "typescript": "^5.0.3",
+      "vite-plugin-top-level-await": "^1.6.0"
+    },
+    "browserslist": [
+      "chrome >= 89",
+      "firefox >= 89",
+      "safari >= 15",
+      "edge >= 89"
+    ]
   },
   "pkgPath": "/Users/zhao/Desktop/demo/umi-module/package.json",
   "plugins": {
@@ -51,7 +59,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 5
+        "register": 3
       },
       "enableBy": "register",
       "type": "preset",
@@ -81,7 +89,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -95,10 +103,10 @@
       "time": {
         "hooks": {
           "onStart": [
-            2
+            1
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -129,10 +137,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            38
+            7
           ]
         },
-        "register": 19
+        "register": 13
       },
       "enableBy": "register",
       "type": "plugin",
@@ -165,7 +173,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -182,7 +190,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -195,7 +203,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -212,7 +220,7 @@
             0
           ]
         },
-        "register": 12
+        "register": 3
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1064,7 +1072,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1107,7 +1115,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 76
+        "register": 56
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1120,7 +1128,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 39
+        "register": 38
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1201,7 +1209,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1253,7 +1261,7 @@
       "time": {
         "hooks": {
           "modifyConfig": [
-            1
+            0
           ]
         },
         "register": 0
@@ -1268,7 +1276,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1281,7 +1289,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1294,7 +1302,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1320,7 +1328,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1333,7 +1341,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1384,7 +1392,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1397,7 +1405,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 8
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1409,7 +1417,17 @@
     "./node_modules/@umijs/preset-umi/dist/features/vite/vite": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "modifyConfig": [
+            0
+          ],
+          "modifyDefaultConfig": [
+            0
+          ],
+          "modifyAppData": [
+            0
+          ]
+        },
         "register": 0
       },
       "enableBy": "config",
@@ -1423,7 +1441,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1514,7 +1532,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1527,7 +1545,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1552,7 +1570,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1602,7 +1620,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1615,7 +1633,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 27
+        "register": 22
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1628,7 +1646,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 10
+        "register": 9
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1640,7 +1658,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1666,7 +1684,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1692,7 +1710,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1705,7 +1723,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1718,7 +1736,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1731,7 +1749,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1770,7 +1788,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1783,7 +1801,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1822,7 +1840,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1861,7 +1879,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1874,7 +1892,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 19
+        "register": 16
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1913,7 +1931,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1940,7 +1958,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/@umijs/plugins/dist/antd.js",
@@ -1952,7 +1970,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2092,7 +2110,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2105,7 +2123,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2118,7 +2136,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2208,7 +2226,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -2225,23 +2243,46 @@
   },
   "userConfig": {
     "title": "remote-umi",
-    "mfsu": false,
-    "hash": false,
     "npmClient": "npm",
-    "layout": {},
-    "vite": false,
-    "model": {},
     "initialState": {},
-    "fastRefresh": false,
-    "mf": false,
+    "model": {},
+    "hash": true,
+    "layout": {},
+    "vite": {
+      "plugins": [
+        {
+          "name": "originjs:federation",
+          "enforce": "post"
+        },
+        {
+          "name": "vite-plugin-top-level-await",
+          "enforce": "post"
+        }
+      ],
+      "build": {
+        "target": "esnext",
+        "modulePreload": false,
+        "rollupOptions": {
+          "external": []
+        }
+      },
+      "optimizeDeps": {
+        "include": [
+          "react",
+          "react-dom"
+        ]
+      },
+      "server": {
+        "port": 8000
+      },
+      "preview": {
+        "port": 8000,
+        "cors": true
+      }
+    },
     "routes": [
       {
         "path": "/",
-        "redirect": "/main"
-      },
-      {
-        "name": "首页",
-        "path": "/main",
         "component": "./Home"
       }
     ]
@@ -2258,7 +2299,9 @@
     "base": "/",
     "svgr": {},
     "publicPath": "/",
-    "mfsu": false,
+    "mfsu": {
+      "strategy": "eager"
+    },
     "ignoreMomentLocale": true,
     "externals": {},
     "autoCSSModules": true,
@@ -2271,25 +2314,50 @@
       "@": "/Users/zhao/Desktop/demo/umi-module/src",
       "@@": "/Users/zhao/Desktop/demo/umi-module/src/.umi-production",
       "regenerator-runtime": "/Users/zhao/Desktop/demo/umi-module/node_modules/regenerator-runtime",
+      "@fs": "/Users/zhao/Desktop/demo/umi-module",
       "@umijs/max": "@@/exports"
     },
     "title": "remote-umi",
-    "hash": false,
     "npmClient": "npm",
-    "layout": {},
-    "vite": false,
-    "model": {},
     "initialState": {},
-    "fastRefresh": false,
-    "mf": false,
+    "model": {},
+    "hash": true,
+    "layout": {},
+    "vite": {
+      "plugins": [
+        {
+          "name": "originjs:federation",
+          "enforce": "post"
+        },
+        {
+          "name": "vite-plugin-top-level-await",
+          "enforce": "post"
+        }
+      ],
+      "build": {
+        "target": "esnext",
+        "modulePreload": false,
+        "rollupOptions": {
+          "external": []
+        }
+      },
+      "optimizeDeps": {
+        "include": [
+          "react",
+          "react-dom"
+        ]
+      },
+      "server": {
+        "port": 8000
+      },
+      "preview": {
+        "port": 8000,
+        "cors": true
+      }
+    },
     "routes": [
       {
         "path": "/",
-        "redirect": "/main"
-      },
-      {
-        "name": "首页",
-        "path": "/main",
         "component": "./Home"
       }
     ],
@@ -2300,19 +2368,11 @@
   "routes": {
     "1": {
       "path": "/",
-      "redirect": "/main",
-      "parentId": "ant-design-pro-layout",
-      "id": "1",
-      "absPath": "/"
-    },
-    "2": {
-      "name": "首页",
-      "path": "/main",
       "file": "@/pages/Home/index.tsx",
       "parentId": "ant-design-pro-layout",
-      "id": "2",
-      "absPath": "/main",
-      "__content": "import styles from './index.less';\n\nconst HomePage: React.FC = () => {\n  return <div className={styles.container}>111111111</div>;\n};\n\nexport default HomePage;\n",
+      "id": "1",
+      "absPath": "/",
+      "__content": "import Counter from '@/exposes/Counter';\nimport styles from './index.less';\n\nconst HomePage: React.FC = () => {\n  return (\n    <div className={styles.container}>\n      <Counter />\n    </div>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/Users/zhao/Desktop/demo/umi-module/src/pages/Home/index.tsx"
     },
@@ -2337,6 +2397,9 @@
   "bundleStatus": {
     "done": false
   },
+  "mfsuBundleStatus": {
+    "done": false
+  },
   "react": {
     "version": "18.3.1",
     "path": "/Users/zhao/Desktop/demo/umi-module/node_modules/react"
@@ -2354,10 +2417,11 @@
     ]
   },
   "locale": "zh-CN",
+  "vite": {},
   "globalCSS": [],
   "globalJS": [],
   "overridesCSS": [],
-  "bundler": "webpack",
+  "bundler": "vite",
   "git": {
     "originUrl": "https://github.com/woshiachenga/mf-demo.git"
   },

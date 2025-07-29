@@ -1,3 +1,11 @@
+/*
+ * @Author: 赵红阳 w_zhaohongyang8@xiwang.com
+ * @Date: 2025-07-24 15:29:33
+ * @LastEditors: 赵红阳 w_zhaohongyang8@xiwang.com
+ * @LastEditTime: 2025-07-29 16:46:48
+ * @FilePath: /demo/vite-host/vite.config.ts
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+ */
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import federation from '@originjs/vite-plugin-federation';
@@ -8,8 +16,7 @@ export default defineConfig({
     federation({
       name: 'host',
       remotes: {
-        // remote: 'http://localhost:5001/dist/assets/remoteEntry.js',
-        remoteUmi: 'http://localhost:8000/remote.js',
+        remoteUmi: 'http://localhost:8000/dist/assets/remoteEntry.js',
       },
       shared: ['react', 'react-dom'],
     }),
